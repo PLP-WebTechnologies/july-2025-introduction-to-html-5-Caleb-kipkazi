@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 + Accessibility & SEO Basics Assignment</title>
+    <meta name="description" content="A basic web page demonstrating HTML5 semantic structure, accessibility, and SEO principles.">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <h1>Welcome to My Semantic Web Page</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="about">
+            <h2>About This Project</h2>
+            <p>This is a foundational web development assignment focused on building a well-structured HTML5 page. The primary goal is to use **semantic tags** to create a document that is both human-readable and machine-readable.</p>
+            <p>We are avoiding the use of non-semantic tags like <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> in favor of elements that describe their content, such as <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Core Principles</h2>
+            <article>
+                <h3>HTML5 Semantic Tags</h3>
+                <p>Semantic HTML helps both browsers and developers understand the meaning and role of different parts of a web page. This improves readability and provides a clearer structure. For instance, using an <code>&lt;article&gt;</code> tag for a self-contained piece of content makes its purpose explicit.</p>
+            </article>
+            <article>
+                <h3>Accessibility (A11y)</h3>
+                <p>A web page is not complete if it isn't accessible to all users. By using proper heading hierarchies, descriptive text, and ARIA attributes (like the <code>aria-label</code> on our navigation), we ensure that people using assistive technologies like screen readers can easily navigate and understand the content.</p>
+            </article>
+            <article>
+                <h3>Search Engine Optimization (SEO)</h3>
+                <p>A well-structured page with logical headings and descriptive metadata is a core part of SEO. Search engine crawlers can efficiently index the page and understand its main topics, which helps the page rank higher in search results. This project uses a clear <code>&lt;title&gt;</code> and <code>&lt;meta&gt;</code> description tag to provide context.</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <address>
+                <p>Email: <a href="mailto:ckc@gmail.com">ckc@gmail.com</a></p>
+                <p>Phone: 0746567379</p>
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <time datetime="2025">2025</time> HTML5 + Accessibility & SEO Basics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
